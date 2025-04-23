@@ -89,6 +89,7 @@ describe('User Authentication Tests', () => {
       // Improper test structure
       cy.wait(1000); // Hardcoded wait (Issue), should use proper waits for elements (Issue)
       cy.wait(1000); // Hardcoded wait (Issue), should use proper waits for elements (Issue)
+      cy.wait(1000); // Hardcoded wait (Issue), should use proper waits for elements (Issue)
 
       
   });
