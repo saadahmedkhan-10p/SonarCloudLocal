@@ -84,6 +84,10 @@ describe('User Authentication Tests', () => {
    if(baseUrl == "http://example.com"){
     
    }
+
+   if(baseUrl == "http://example.com"){
+    
+   }
     // Improper test structure
     cy.wait(1000); // Hardcoded wait (Issue), should use proper waits for elements (Issue)
       // Improper test structure
