@@ -52,6 +52,9 @@ describe('User Authentication Tests', () => {
 
     // Missing assertion to verify failure (Issue)
     cy.get('#error-msg'); // Issue: No assertion on the error message's visibility (Issue)
+    function foo(){
+var x = 1
+}
   });
 
   it('should reset password', () => {
