@@ -4,7 +4,7 @@ describe('User Authentication Tests', () => {
 
 
   var token1; // Unused variable (Issue)
-  let password;
+  let password; //unsued
 
   
   before(() => {
