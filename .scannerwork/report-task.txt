@@ -1,0 +1,6 @@
+projectKey=SonarLocalPoc
+serverUrl=https://sast.10pearls.com
+serverVersion=10.6.0.92116
+dashboardUrl=https://sast.10pearls.com/dashboard?id=SonarLocalPoc
+ceTaskId=ce4f5ba1-b7f4-4c51-995f-43d6e4ae8242
+ceTaskUrl=https://sast.10pearls.com/api/ce/task?id=ce4f5ba1-b7f4-4c51-995f-43d6e4ae8242
