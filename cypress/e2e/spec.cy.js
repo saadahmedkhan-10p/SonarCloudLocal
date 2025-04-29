@@ -2,9 +2,25 @@
 describe('User Authentication Tests', () => {
   const baseUrl = "http://example.com"; // Hardcoded value, should be configurable (Issue)
 
+
   var token1; // Unused variable (Issue)
+
   
   before(() => {
+    cy.visit(baseUrl);
+
+    cy.get('#login').click();;
+
+  });
+
+   before(() => {
+    cy.visit(baseUrl);
+
+    cy.get('#login').click();;
+
+  });
+
+   before(() => {
     cy.visit(baseUrl);
 
     cy.get('#login').click();;
