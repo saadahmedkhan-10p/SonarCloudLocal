@@ -6,6 +6,7 @@ describe('User Authentication Tests', () => {
   var tokenn-1; // Unused variable, token is declared but never used (Issue)
   let token3;;;
   var other;;
+  var other;;
   
   before(() => {
     cy.visit(baseUrl);
