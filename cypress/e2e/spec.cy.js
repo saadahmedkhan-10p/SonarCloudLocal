@@ -1,8 +1,8 @@
 
 describe('User Authentication Tests', () => {
   const baseUrl = "http://example.com"; // Hardcoded value, should be configurable (Issue)
-  var tokenn; // Unused variable, token is declared but never used (Issue)
-  var tokenn; // Unused variable, token is declared but never used (Issue)
+
+  var token1; // Unused variable (Issue)
   
   before(() => {
     cy.visit(baseUrl);
@@ -95,6 +95,8 @@ describe('User Authentication Tests', () => {
       cy.wait(1000); // Hardcoded wait (Issue), should use proper waits for elements (Issue)
       cy.wait(1000); // Hardcoded wait (Issue), should use proper waits for elements (Issue)
 
-      
+      if(baseUrl == "http://new.com"){
+    
+      }
   });
 });
